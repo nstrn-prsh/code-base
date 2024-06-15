@@ -1,12 +1,12 @@
 // @ts-nocheck //fix: 
 import { configureStore } from "@reduxjs/toolkit";
 import { planetApi } from "./services/planet";
+import { applicantSlice } from "./slices/applicant";
 
 export const store = configureStore({
    reducer: {
       // Add Slice Reducers to the Store
-      // applicant: applicantSlice,
-      // inspector: inspectorSlice,
+      applicant: applicantSlice,
       // Add the generated reducer as a specific top-level slice
       [planetApi.reducerPath]: planetApi.reducer,
    },
