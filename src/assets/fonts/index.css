@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'yekan';
+    src: url(./IRANYekanXVF.woff2) format('woff2'), url(./IRANYekanXVF.woff2) format('woff'), url(./IRANYekanXVF.woff2) format('truetype');
+}
+
+body {
+    font-family: "yekan";
+}
